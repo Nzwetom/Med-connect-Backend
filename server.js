@@ -22,7 +22,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:4200",           // for local dev
-    "https://your-frontend.netlify.app" // replace with your actual deployed frontend URL
+    "https://med-connect-frontend.netlify.app" // replace with your actual deployed frontend URL
   ],
   credentials: true
 }));
